@@ -7,7 +7,7 @@ model:
   arch: pretrain_chatglm
   load_finetuned: False
 
-  pretrained: "/home/songbo/songbo/NLP_dev/lmm/LAVIS/lavis/output/BLIP2/Pretrain_stage1/20231016094/checkpoint_9.pth"
+  pretrained: "./lavis/output/BLIP2/Pretrain_stage1/20231016094/checkpoint_9.pth"
   finetuned: ""
 
   # vit encoder
@@ -21,7 +21,7 @@ model:
   num_query_token: 32
 
   # OPT
-  chatglm_model: "/home/songbo/songbo/NLP_dev/model_save/chatglm-6b/"
+  chatglm_model: "./chatglm-6b/"
   # "/home/songbo/songbo/NLP_dev/model_save/THUDMchatglm_6b_int8/"
   #  "/home/songbo/songbo/NLP_dev/model_save/THUDMchatglm-6b-int8/"
   # "/home/songbo/songbo/NLP_dev/model_save/chatglm-6b/"

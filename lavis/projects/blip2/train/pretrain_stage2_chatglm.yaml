@@ -8,7 +8,7 @@ model:
   model_type: pretrain_chatglm
   load_pretrained: True
   # intialize stage 2 pretraining from stage 1 pretrained model
-  pretrained: "/home/songbo/songbo/NLP_dev/lmm/LAVIS/lavis/output/BLIP2/Pretrain_stage1/20231016094/checkpoint_9.pth"
+  pretrained: "./lavis/output/BLIP2/Pretrain_stage1/20231016094/checkpoint_9.pth"
   freeze_vit: True
 
 
